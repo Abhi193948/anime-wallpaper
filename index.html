@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniKabe 4K â€” Free Ultra-HD Anime Wallpapers for Mobile &amp; PC</title>
+  <meta name="description" content="Download free 4K anime wallpapers in uncompressed original quality. Explore trending anime backgrounds for Android, iPhone 9:16 lock screens, and widescreen PC setups." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://anikabe.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AniKabe 4K â€” Free Ultra-HD Anime Wallpapers for Mobile &amp; PC" />
+  <meta property="og:description" content="Curated dark-mode gallery of original 4K anime wallpapers for Android, iPhone, and gaming PCs with direct uncompressed downloads." />
+  <meta property="og:image" content="assets/wallpapers/twilight-comet-tokyo-hillside-4k-anime-wallpaper.jpg" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Schema.org WebSite & Featured ImageObject Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "AniKabe 4K",
+        "url": "https://anikabe.in/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://anikabe.in/trending.html?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "name": "Twilight Comet Over Tokyo Hillside Scenic Anime Wallpaper",
+        "contentUrl": "https://anikabe.in/assets/wallpapers/twilight-comet-tokyo-hillside-4k-anime-wallpaper.jpg",
+        "encodingFormat": "image/jpeg",
+        "width": 1376,
+        "height": 768
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are all anime wallpapers on AniKabe 4K free to download?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every desktop 16:9 and mobile 9:16 wallpaper on AniKabe 4K is 100% free for personal phone, tablet, and PC customization with no watermarks or registration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do downloads keep the original uncompressed image quality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Clicking Download serves the original master asset directly without lossy re-compression or resizing."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-page="home">
+  <!-- Sticky Responsive Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo" aria-label="AniKabe 4K Home">
+        <span class="brand-mark" aria-hidden="true">AK</span>
+        <span>AniKabe</span>
+        <span class="brand-badge">4K</span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="trending.html">Trending</a></li>
+          <li><a href="trending.html?category=action-shonen">Popular Anime</a></li>
+          <li><a href="trending.html?device=mobile">4K Mobile</a></li>
+          <li><a href="trending.html?device=desktop">Desktop/PC</a></li>
+          <li><a href="trending.html?category=dark-amoled">Dark/AMOLED</a></li>
+        </ul>
+      </nav>
+
+      <form class="nav-search-form js-search-form" role="search" aria-label="Search anime wallpapers">
+        <svg class="nav-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input
+          id="desktopSearchInput"
+          class="nav-search-input"
+          type="search"
+          placeholder="Search 4K anime, AMOLED, skies..."
+          autocomplete="off"
+          aria-label="Search anime wallpapers"
+        />
+        <button type="button" id="desktopSearchClear" class="nav-search-clear" aria-label="Clear search">&times;</button>
+      </form>
+
+      <div class="nav-mobile-actions">
+        <button type="button" id="toggleMobileSearchBtn" class="icon-btn" aria-label="Toggle search" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button type="button" id="openDrawerBtn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Collapsible Mobile Search Input -->
+    <div id="mobileSearchBar" class="mobile-search-bar">
+      <form class="js-search-form" role="search" aria-label="Mobile search">
+        <input
+          id="mobileSearchInput"
+          class="nav-search-input"
+          type="search"
+          placeholder="Search anime wallpapers..."
+          autocomplete="off"
+          aria-label="Search anime wallpapers on mobile"
+        />
+      </form>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <aside id="mobileDrawer" class="mobile-drawer" aria-hidden="true" aria-label="Mobile menu">
+    <div id="drawerBackdrop" class="mobile-drawer-backdrop"></div>
+    <div class="mobile-drawer-panel">
+      <div class="drawer-header">
+        <span class="brand-logo"><span class="brand-mark">AK</span> AniKabe 4K</span>
+        <button type="button" id="closeDrawerBtn" class="icon-btn" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="drawer-links" aria-label="Mobile navigation links">
+        <a href="index.html" class="active">Home</a>
+        <a href="trending.html">Trending Wallpapers</a>
+        <a href="trending.html?category=action-shonen">Popular Anime</a>
+        <a href="trending.html?device=mobile">4K Mobile (9:16)</a>
+        <a href="trending.html?device=desktop">Desktop / PC (16:9)</a>
+        <a href="trending.html?category=dark-amoled">Dark &amp; AMOLED</a>
+        <a href="trending.html?category=scenic-anime-skies">Scenic Anime Skies</a>
+      </nav>
+    </div>
+  </aside>
+
+  <main class="container">
+    <!-- Hero Showcase -->
+    <section class="hero-section" aria-labelledby="heroHeading">
+      <div class="hero-banner">
+        <div class="hero-content">
+          <span class="hero-eyebrow">Zero Watermarks Â· Original Quality</span>
+          <h1 id="heroHeading" class="hero-title">Trending 4K Anime Wallpapers for Mobile &amp; PC</h1>
+          <p class="hero-subtitle">
+            Explore razor-sharp original anime artwork crafted for Indian Android, iPhone, and gaming PC enthusiasts. Every background includes clean negative space for icons and lock-screen clocks with one-click uncompressed downloads.
+          </p>
+          <div class="hero-cta-row">
+            <a href="trending.html" class="btn btn-primary">Explore Trending Gallery</a>
+            <a href="trending.html?device=mobile" class="btn btn-secondary">Browse 9:16 Lock Screens</a>
+          </div>
+        </div>
+
+        <div class="hero-preview-collage">
+          <a href="wallpaper.html?slug=twilight-comet-tokyo-hillside-4k-anime-wallpaper" class="hero-preview-card" aria-label="Featured desktop wallpaper: Twilight Comet Over Tokyo Hillside">
+            <img src="assets/wallpapers/twilight-comet-tokyo-hillside-4k-anime-wallpaper.jpg" alt="Twilight Comet Over Tokyo Hillside scenic anime desktop wallpaper" width="1376" height="768" />
+          </a>
+          <a href="wallpaper.html?slug=midnight-shrine-cyber-portal-mobile-anime-wallpaper" class="hero-preview-card mobile-tall" aria-label="Featured mobile wallpaper: Midnight Cyber Rift Alleyway">
+            <img src="assets/wallpapers/midnight-shrine-cyber-portal-mobile-anime-wallpaper.jpg" alt="Midnight Cyber Rift Alleyway AMOLED anime mobile lock screen wallpaper" width="768" height="1376" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Filterable Gallery -->
+    <section aria-labelledby="galleryHeading">
+      <div class="section-header">
+        <div>
+          <h2 id="galleryHeading" class="section-title">Featured Anime Wallpaper Collection</h2>
+          <p class="section-subtitle">Click any card for full specs or use the direct Download button for the original file.</p>
+        </div>
+        <a href="trending.html" class="btn btn-secondary">View All &amp; Filters</a>
+      </div>
+
+      <div class="filter-toolbar">
+        <div id="categoryPills" class="category-pills-scroll" role="group" aria-label="Wallpaper categories"></div>
+
+        <div class="toolbar-meta-row">
+          <div class="device-filter-group" role="group" aria-label="Filter by screen orientation">
+            <button type="button" class="device-tab active" data-device-filter="all" aria-pressed="true">All Screens</button>
+            <button type="button" class="device-tab" data-device-filter="desktop" aria-pressed="false">Desktop 16:9</button>
+            <button type="button" class="device-tab" data-device-filter="mobile" aria-pressed="false">Mobile 9:16</button>
+          </div>
+
+          <div class="toolbar-right">
+            <span id="resultsCount" class="results-count" aria-live="polite">Loading wallpapers...</span>
+            <label for="sortSelect" class="sr-only">Sort wallpapers</label>
+            <select id="sortSelect" class="sort-select">
+              <option value="trending">Sort: Trending</option>
+              <option value="latest">Sort: Latest Added</option>
+              <option value="downloads">Sort: Most Downloaded</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="wallpaperGrid" class="wallpaper-grid"></div>
+    </section>
+
+    <!-- Category Hub -->
+    <section class="section-block" aria-labelledby="categoriesHeading">
+      <div class="section-header">
+        <div>
+          <h2 id="categoriesHeading" class="section-title">Browse by Aesthetic &amp; Device</h2>
+          <p class="section-subtitle">Curated collections from gritty shonen action to OLED-friendly dark scenes.</p>
+        </div>
+      </div>
+      <div id="categoryHubGrid" class="category-grid"></div>
+    </section>
+
+    <!-- Popular Anime Wallpaper Collections (100 Topic Pages) -->
+    <section class="topics-directory" aria-labelledby="topicsDirectoryHeading">
+      <div class="section-header" style="margin-bottom: 6px;">
+        <div>
+          <h2 id="topicsDirectoryHeading" class="section-title">Popular Anime Wallpaper Collections</h2>
+          <p class="section-subtitle">Direct access to all 100 curated character, resolution, and aesthetic wallpaper pages.</p>
+        </div>
+      </div>
+      <div class="topics-directory-list">
+        <a class="topic-chip" href="4k-hdr-anime-wallpaper-for-mobile.html">4K HDR Anime Wallpaper for Mobile</a>
+        <a class="topic-chip" href="4k-ultra-hd-anime-wallpaper.html">4K Ultra HD Anime Wallpaper</a>
+        <a class="topic-chip" href="8k-anime-wallpaper-for-pc-free-download.html">8K Anime Wallpaper for PC Free Download</a>
+        <a class="topic-chip" href="9-16-anime-wallpaper-hd-download.html">9:16 Anime Wallpaper HD Download</a>
+        <a class="topic-chip" href="aesthetic-anime-wallpaper-without-watermark-free-download.html">Aesthetic Anime Wallpaper without Watermark Free Download</a>
+        <a class="topic-chip" href="amoled-black-anime-wallpaper-4k-mobile.html">AMOLED Black Anime Wallpaper 4K Mobile</a>
+        <a class="topic-chip" href="anime-background-hd-free.html">Anime Background HD Free</a>
+        <a class="topic-chip" href="anime-best-friends-matching-wallpaper.html">Anime Best Friends Matching Wallpaper</a>
+        <a class="topic-chip" href="anime-couple-matching-wallpaper-for-phone.html">Anime Couple Matching Wallpaper for Phone</a>
+        <a class="topic-chip" href="anime-depth-effect-wallpaper-iphone.html">Anime Depth Effect Wallpaper iPhone</a>
+        <a class="topic-chip" href="anime-dp-for-whatsapp-hd.html">Anime DP for WhatsApp HD</a>
+        <a class="topic-chip" href="anime-gym-motivation-wallpaper-for-phone.html">Anime Gym Motivation Wallpaper for Phone</a>
+        <a class="topic-chip" href="anime-home-screen-wallpaper-hd.html">Anime Home Screen Wallpaper HD</a>
+        <a class="topic-chip" href="anime-live-wallpaper-4k-for-android-free.html">Anime Live Wallpaper 4K for Android Free</a>
+        <a class="topic-chip" href="anime-live-wallpaper-free-download.html">Anime Live Wallpaper Free Download</a>
+        <a class="topic-chip" href="anime-lock-screen-wallpaper-4k.html">Anime Lock Screen Wallpaper 4K</a>
+        <a class="topic-chip" href="anime-quotes-wallpaper-hd-for-mobile.html">Anime Quotes Wallpaper HD for Mobile</a>
+        <a class="topic-chip" href="anime-rain-night-window-lofi-wallpaper-for-pc.html">Anime Rain Night Window Lofi Wallpaper for PC</a>
+        <a class="topic-chip" href="anime-samurai-katana-dark-wallpaper.html">Anime Samurai Katana Dark Wallpaper</a>
+        <a class="topic-chip" href="anime-scenery-sunset-wallpaper-4k.html">Anime Scenery Sunset Wallpaper 4K</a>
+        <a class="topic-chip" href="anime-video-wallpaper-for-lock-screen.html">Anime Video Wallpaper for Lock Screen</a>
+        <a class="topic-chip" href="anime-villain-dark-aura-wallpaper-4k.html">Anime Villain Dark Aura Wallpaper 4K</a>
+        <a class="topic-chip" href="anime-wallpaper-1080x2400-full-hd.html">Anime Wallpaper 1080x2400 Full HD</a>
+        <a class="topic-chip" href="anime-wallpaper-4k-free-download.html">Anime Wallpaper 4K Free Download</a>
+        <a class="topic-chip" href="anime-wallpaper-download-for-android.html">Anime Wallpaper Download for Android</a>
+        <a class="topic-chip" href="anime-wallpaper-for-gaming-pc-setup.html">Anime Wallpaper for Gaming PC Setup</a>
+        <a class="topic-chip" href="anime-wallpaper-for-ipad-4k.html">Anime Wallpaper for iPad 4K</a>
+        <a class="topic-chip" href="anime-wallpaper-for-iphone-16-pro-max-4k.html">Anime Wallpaper for iPhone 16 Pro Max 4K</a>
+        <a class="topic-chip" href="anime-wallpaper-for-laptop-1920x1080.html">Anime Wallpaper for Laptop 1920x1080</a>
+        <a class="topic-chip" href="anime-wallpaper-for-windows-11-desktop.html">Anime Wallpaper for Windows 11 Desktop</a>
+        <a class="topic-chip" href="anime-wallpaper-full-hd-download.html">Anime Wallpaper Full HD Download</a>
+        <a class="topic-chip" href="anime-wallpaper-zip-file-free-download.html">Anime Wallpaper ZIP File Free Download</a>
+        <a class="topic-chip" href="attack-on-titan-eren-yeager-4k-wallpaper.html">Attack on Titan Eren Yeager 4K Wallpaper</a>
+        <a class="topic-chip" href="attack-on-titan-rumbling-dual-monitor-wallpaper-4k.html">Attack on Titan Rumbling Dual Monitor Wallpaper 4K</a>
+        <a class="topic-chip" href="attitude-anime-boy-wallpaper-for-mobile.html">Attitude Anime Boy Wallpaper for Mobile</a>
+        <a class="topic-chip" href="best-anime-lock-screen-and-home-screen-combo-wallpaper.html">Best Anime Lock Screen and Home Screen Combo Wallpaper</a>
+        <a class="topic-chip" href="best-anime-wallpapers-for-phone.html">Best Anime Wallpapers for Phone</a>
+        <a class="topic-chip" href="best-dark-amoled-anime-wallpapers-to-save-battery.html">Best Dark AMOLED Anime Wallpapers to Save Battery</a>
+        <a class="topic-chip" href="blue-lock-isagi-yoichi-wallpaper-4k.html">Blue Lock Isagi Yoichi Wallpaper 4K</a>
+        <a class="topic-chip" href="blue-lock-kaiser-4k-wallpaper-for-android.html">Blue Lock Kaiser 4K Wallpaper for Android</a>
+        <a class="topic-chip" href="blue-lock-rin-itoshi-mobile-wallpaper.html">Blue Lock Rin Itoshi Mobile Wallpaper</a>
+        <a class="topic-chip" href="chainsaw-man-denji-4k-wallpaper.html">Chainsaw Man Denji 4K Wallpaper</a>
+        <a class="topic-chip" href="chainsaw-man-pochita-cute-lock-screen-wallpaper.html">Chainsaw Man Pochita Cute Lock Screen Wallpaper</a>
+        <a class="topic-chip" href="cool-anime-wallpapers-4k.html">Cool Anime Wallpapers 4K</a>
+        <a class="topic-chip" href="cute-anime-girl-pfp-for-instagram.html">Cute Anime Girl PFP for Instagram</a>
+        <a class="topic-chip" href="cyberpunk-anime-aesthetic-wallpaper-hd.html">Cyberpunk Anime Aesthetic Wallpaper HD</a>
+        <a class="topic-chip" href="dark-anime-aesthetic-wallpaper-4k.html">Dark Anime Aesthetic Wallpaper 4K</a>
+        <a class="topic-chip" href="demon-slayer-infinity-castle-wallpaper-4k.html">Demon Slayer Infinity Castle Wallpaper 4K</a>
+        <a class="topic-chip" href="demon-slayer-kokushibo-moon-breathing-wallpaper-4k.html">Demon Slayer Kokushibo Moon Breathing Wallpaper 4K</a>
+        <a class="topic-chip" href="dragon-ball-goku-black-rose-amoled-wallpaper-4k.html">Dragon Ball Goku Black Rose AMOLED Wallpaper 4K</a>
+        <a class="topic-chip" href="dragon-ball-super-ultra-instinct-goku-4k-wallpaper.html">Dragon Ball Super Ultra Instinct Goku 4K Wallpaper</a>
+        <a class="topic-chip" href="dual-monitor-anime-wallpaper-4k.html">Dual Monitor Anime Wallpaper 4K</a>
+        <a class="topic-chip" href="dynamic-island-anime-wallpaper-iphone.html">Dynamic Island Anime Wallpaper iPhone</a>
+        <a class="topic-chip" href="frieren-beyond-journeys-end-night-sky-wallpaper-4k.html">Frieren Beyond Journeys End Night Sky Wallpaper 4K</a>
+        <a class="topic-chip" href="frieren-season-2-aesthetic-wallpaper-4k.html">Frieren Season 2 Aesthetic Wallpaper 4K</a>
+        <a class="topic-chip" href="gojo-satoru-4k-wallpaper-for-mobile.html">Gojo Satoru 4K Wallpaper for Mobile</a>
+        <a class="topic-chip" href="hd-anime-wallpapers-for-mobile.html">HD Anime Wallpapers for Mobile</a>
+        <a class="topic-chip" href="hells-paradise-sagiri-and-gabimaru-wallpaper-hd.html">Hells Paradise Sagiri and Gabimaru Wallpaper HD</a>
+        <a class="topic-chip" href="hells-paradise-season-2-gabimaru-wallpaper-4k.html">Hells Paradise Season 2 Gabimaru Wallpaper 4K</a>
+        <a class="topic-chip" href="how-to-set-4k-live-anime-wallpaper-on-android.html">How to Set 4K Live Anime Wallpaper on Android</a>
+        <a class="topic-chip" href="itachi-uchiha-dark-wallpaper-4k.html">Itachi Uchiha Dark Wallpaper 4K</a>
+        <a class="topic-chip" href="jujutsu-kaisen-culling-game-arc-wallpaper-4k.html">Jujutsu Kaisen Culling Game Arc Wallpaper 4K</a>
+        <a class="topic-chip" href="jujutsu-kaisen-season-3-wallpaper-4k.html">Jujutsu Kaisen Season 3 Wallpaper 4K</a>
+        <a class="topic-chip" href="jujutsu-kaisen-toji-fushiguro-gym-wallpaper-mobile.html">Jujutsu Kaisen Toji Fushiguro Gym Wallpaper Mobile</a>
+        <a class="topic-chip" href="latest-anime-wallpapers-2026.html">Latest Anime Wallpapers 2026</a>
+        <a class="topic-chip" href="levi-ackerman-hd-wallpaper-for-android.html">Levi Ackerman HD Wallpaper for Android</a>
+        <a class="topic-chip" href="lofi-anime-night-city-wallpaper-4k.html">Lofi Anime Night City Wallpaper 4K</a>
+        <a class="topic-chip" href="makima-aesthetic-wallpaper-hd.html">Makima Aesthetic Wallpaper HD</a>
+        <a class="topic-chip" href="manga-panel-wallpaper-black-and-white-hd.html">Manga Panel Wallpaper Black and White HD</a>
+        <a class="topic-chip" href="minimalist-anime-wallpaper-black-background.html">Minimalist Anime Wallpaper Black Background</a>
+        <a class="topic-chip" href="my-hero-academia-deku-dark-wallpaper-hd.html">My Hero Academia Deku Dark Wallpaper HD</a>
+        <a class="topic-chip" href="my-hero-academia-shigaraki-dark-aesthetic-wallpaper.html">My Hero Academia Shigaraki Dark Aesthetic Wallpaper</a>
+        <a class="topic-chip" href="naruto-minato-namikaze-minimalist-amoled-wallpaper.html">Naruto Minato Namikaze Minimalist AMOLED Wallpaper</a>
+        <a class="topic-chip" href="naruto-shippuden-baryon-mode-wallpaper-hd.html">Naruto Shippuden Baryon Mode Wallpaper HD</a>
+        <a class="topic-chip" href="neon-glow-anime-wallpaper-4k.html">Neon Glow Anime Wallpaper 4K</a>
+        <a class="topic-chip" href="new-anime-wallpaper-hd.html">New Anime Wallpaper HD</a>
+        <a class="topic-chip" href="nezuko-kamado-cute-wallpaper-hd.html">Nezuko Kamado Cute Wallpaper HD</a>
+        <a class="topic-chip" href="oled-dark-anime-wallpaper-for-android.html">OLED Dark Anime Wallpaper for Android</a>
+        <a class="topic-chip" href="one-piece-elbaf-arc-luffy-wallpaper-hd.html">One Piece Elbaf Arc Luffy Wallpaper HD</a>
+        <a class="topic-chip" href="one-piece-gear-5-luffy-wallpaper-4k.html">One Piece Gear 5 Luffy Wallpaper 4K</a>
+        <a class="topic-chip" href="one-piece-shanks-haki-red-aesthetic-wallpaper-4k.html">One Piece Shanks Haki Red Aesthetic Wallpaper 4K</a>
+        <a class="topic-chip" href="punch-hole-anime-wallpaper-for-android.html">Punch Hole Anime Wallpaper for Android</a>
+        <a class="topic-chip" href="purple-aesthetic-anime-wallpaper-phone.html">Purple Aesthetic Anime Wallpaper Phone</a>
+        <a class="topic-chip" href="red-aesthetic-anime-wallpaper-4k.html">Red Aesthetic Anime Wallpaper 4K</a>
+        <a class="topic-chip" href="retro-90s-anime-aesthetic-wallpaper.html">Retro 90s Anime Aesthetic Wallpaper</a>
+        <a class="topic-chip" href="roronoa-zoro-4k-wallpaper-for-phone.html">Roronoa Zoro 4K Wallpaper for Phone</a>
+        <a class="topic-chip" href="sad-anime-boy-wallpaper-alone-hd.html">Sad Anime Boy Wallpaper Alone HD</a>
+        <a class="topic-chip" href="solo-leveling-arise-igris-4k-mobile-wallpaper.html">Solo Leveling Arise Igris 4K Mobile Wallpaper</a>
+        <a class="topic-chip" href="solo-leveling-beru-shadow-army-4k-wallpaper.html">Solo Leveling Beru Shadow Army 4K Wallpaper</a>
+        <a class="topic-chip" href="solo-leveling-shadow-monarch-wallpaper-mobile.html">Solo Leveling Shadow Monarch Wallpaper Mobile</a>
+        <a class="topic-chip" href="solo-leveling-sung-jin-woo-wallpaper-4k.html">Solo Leveling Sung Jin Woo Wallpaper 4K</a>
+        <a class="topic-chip" href="sukuna-dark-aesthetic-wallpaper-hd.html">Sukuna Dark Aesthetic Wallpaper HD</a>
+        <a class="topic-chip" href="tanjiro-kamado-fire-effect-wallpaper-hd.html">Tanjiro Kamado Fire Effect Wallpaper HD</a>
+        <a class="topic-chip" href="top-anime-wallpapers-for-pc.html">Top Anime Wallpapers for PC</a>
+        <a class="topic-chip" href="trending-anime-wallpaper-2026.html">Trending Anime Wallpaper 2026</a>
+        <a class="topic-chip" href="ultrawide-anime-wallpaper-3440x1440.html">Ultrawide Anime Wallpaper 3440x1440</a>
+        <a class="topic-chip" href="vegeta-ultra-ego-wallpaper-for-mobile.html">Vegeta Ultra Ego Wallpaper for Mobile</a>
+        <a class="topic-chip" href="vertical-anime-wallpaper-4k-for-phone.html">Vertical Anime Wallpaper 4K for Phone</a>
+        <a class="topic-chip" href="yuta-okkotsu-jujutsu-kaisen-s3-wallpaper.html">Yuta Okkotsu Jujutsu Kaisen S3 Wallpaper</a>
+        <a class="topic-chip" href="zenitsu-agatsuma-amoled-wallpaper.html">Zenitsu Agatsuma AMOLED Wallpaper</a>
+      </div>
+    </section>
+
+    <!-- Natural, Helpful SEO Copy + FAQ -->
+    <section class="seo-content-section" aria-labelledby="seoAboutHeading">
+      <div class="seo-prose">
+        <h2 id="seoAboutHeading">Crisp Anime Wallpapers Built for Modern Screens</h2>
+        <p>
+          Finding a genuinely sharp anime wallpaper free download without heavy JPEG compression or distracting watermarks can be frustrating. AniKabe 4K curates original digital anime illustrations tailored for both widescreen desktop monitors and tall smartphone lock screens across India.
+        </p>
+        <h3>AMOLED Dark Aesthetics &amp; Scenic Skies</h3>
+        <p>
+          Whether you prefer low-light cyberpunk alleyways and dark anime wallpaper mobile setups that conserve battery on OLED displays, or vibrant twilight comets inspired by cinematic anime skies, each frame balances rich color grading with thoughtful negative space so your clock widgets and desktop icons stay readable.
+        </p>
+        <h3>Instant Uncompressed PC &amp; Phone Downloads</h3>
+        <p>
+          Looking for a clean anime wallpaper for PC or a fresh 9:16 Android and iPhone background? Use the screen-orientation filter above to switch between 16:9 widescreen and 9:16 portrait artwork, then download the master file in a single tap.
+        </p>
+      </div>
+
+      <div>
+        <h2 style="margin: 0 0 12px; font-size: 1.25rem;">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Are these anime wallpapers really free and watermark-free?</summary>
+            <p class="faq-answer">Yes. Every image in the AniKabe 4K gallery is completely free for personal desktop, laptop, and smartphone customization with zero watermarks.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I download the full original quality on Android or iPhone?</summary>
+            <p class="faq-answer">Tap the Download button directly on any card or open the wallpaper detail page and tap "Download Original". On iOS Safari, tap and hold the opened image if prompted to Save to Photos.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which aspect ratio works best for my device?</summary>
+            <p class="faq-answer">Choose 9:16 Mobile for Android and iPhone lock screens, and 16:9 Desktop for Windows 11, macOS, and gaming monitors.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 10px;">
+            <span class="brand-mark">AK</span>
+            <span>AniKabe 4K</span>
+          </a>
+          <p class="detail-desc">A sleek dark-mode gallery delivering original, watermark-free anime artwork for Android, iPhone, and desktop setups.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore Categories</h4>
+          <ul class="footer-links">
+            <li><a href="trending.html?category=action-shonen">Action / Shonen</a></li>
+            <li><a href="trending.html?category=dark-amoled">Dark &amp; AMOLED</a></li>
+            <li><a href="trending.html?category=scenic-anime-skies">Scenic Anime Skies</a></li>
+            <li><a href="trending.html?category=cyberpunk-supernatural">Cyberpunk / Supernatural</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>By Screen Size</h4>
+          <ul class="footer-links">
+            <li><a href="trending.html?device=mobile">Mobile Lock Screen (9:16)</a></li>
+            <li><a href="trending.html?device=desktop">Desktop &amp; PC (16:9)</a></li>
+            <li><a href="trending.html">Trending Wallpapers</a></li>
+            <li><a href="wallpaper.html">Featured Download</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 AniKabe 4K (anikabe.in). Original AI-directed anime illustrations for personal display use.</span>
+        <span>Built for fast Core Web Vitals &amp; dark-mode clarity.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/wallpapers.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
